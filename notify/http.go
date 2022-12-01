@@ -42,8 +42,31 @@ func Http(w http.ResponseWriter, r *http.Request) {
 	
 				if key == "unread" { 
 					let.Details = template.HTML(GetUnreadNotification(session.Values["usersid"].(string)))
-					fmt.Println("unreda")
-					fmt.Fprintf(w, "%s", let.Details)
+					fmt.Fprintf(w, "%s", `
+					<html>
+
+					<head>
+						<title>Home Page</title>
+						<link rel="icon" href="/jskl899nxhsjas/" type="image/x-icon">
+						<meta charset="UTF-8">
+						<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+						<link rel="stylesheet" href="/dingtra-web-assets/css/cssntfy001/ntfy9013res80.css"/>
+						<script src="/dingtra-web-assets/js/feather/feather.js"></script>
+						<script src="/dingtra-web-assets/js/jquery.js"></script>
+					
+					</head>
+					
+					<body >
+						`+
+						let.Details+
+						`
+						<script>
+							feather.replace()
+						</script>
+					</body>
+					
+					</html>
+					`)
 				}else{
 					fmt.Fprintf(w, "%s", `
 					<html>
