@@ -26,8 +26,6 @@ func Http(w http.ResponseWriter, r *http.Request) {
 				let.MarkAllRead(r)
 				fmt.Fprintf(w, "%s", let.Details)
 
-			}else if let.Urls[0] == "count"{
-				fmt.Fprintf(w, "%s", CountNotify(let.Usersid))
 			}
 		}else{
 
@@ -112,7 +110,7 @@ func Http(w http.ResponseWriter, r *http.Request) {
 		}
 
 		if len(keys) > 0 {
-			fmt.Println(CountNotify(keys[0]))
+			fmt.Fprintf(w, "%s", CountNotify(CountNotify(keys[0])))
 		}else{
 			http.Redirect(w, r, "/app/xrio8363/login/", http.StatusSeeOther)
 		}
