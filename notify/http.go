@@ -111,7 +111,7 @@ func Http(w http.ResponseWriter, r *http.Request) {
 		}
 
 		if len(keys) > 0 {
-			fmt.Fprintf(w, "%s", CountNotify(CountNotify(keys[0])))
+			fmt.Fprintf(w, "%s", CountNotify(keys[0]))
 		}else{
 			http.Redirect(w, r, "/app/xrio8363/login/", http.StatusSeeOther)
 		}
