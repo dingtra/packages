@@ -12,6 +12,7 @@ import (
 
 
 func Http(w http.ResponseWriter, r *http.Request) {
+// 	all mens are ...
 	session, _ := rundb.Store.Get(r, "session")
 	let := NotifyStruct{}
 
