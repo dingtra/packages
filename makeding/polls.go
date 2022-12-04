@@ -107,7 +107,7 @@ func PollSelection1 () string {
 		<div class='pollsxy94x89xr'>
 			<div class='selector-x01-label'>
 			    <div class='selector-x01'><span>Hours</span></div>
-				<select name="days">
+				<select name="hours">
 					<option value='0'>0</option>
 					<option value='1'>1</option>
 					<option value='2'>2</option>
@@ -141,7 +141,7 @@ func PollSelection1 () string {
 		<div class='pollsxy94x89xr'>
 			<div class='selector-x01-label'>
 			    <div class='selector-x01'><span>Minutes</span></div>
-				<select name="days">
+				<select name="minutes">
 					<option value='0'>0</option>
 					<option value='1'>1</option>
 					<option value='2'>2</option>
