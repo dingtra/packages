@@ -68,7 +68,7 @@ func (let *MakeDingStruct ) NewDing () string {
 	// srch details
 
 	// 00000000000000000000000000000000000000000000000000000000000000000000000000000000
-	details = append(details, "<div style='display:none;'><span><input type='text' name='branchchild' id='brx0x9x1' /></span></div>")
+	details = append(details, "<div style='display:none;'><span><input type='text' name='inbranch' id='brx0x9x1' /></span></div>")
 	// 00000000000000000000000000000000000000000000000000000000000000000000000000000
 
 
