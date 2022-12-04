@@ -38,6 +38,7 @@ func (let *MakeDingStruct ) NewDing () string {
 	
 	// parent 
 	details = append(details, "<div class='nwdngxr090'><div class='nwdngxr090-chld'>")
+	details = append(details, "<div class='erx090r'></div>")
 	details = append(details, "<div id='ntfyxr0k87cncl'><div style='pointer-events:none;display:flex;justify-content:end;padding:5px 10px 10px 0px;'><button><i data-feather='x' color='black'></i></button> </div></div>")
 	details = append(details, "<form enctype='multipart/form-data' name='dngfrm'>")
 	// phase
