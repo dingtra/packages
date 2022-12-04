@@ -16,7 +16,7 @@ func (let *MakeDingStruct ) Polls ()  {
 	// ------------------------------- polls
 	details = append(details, "<div class='pollsxy91x89'>")
 
-	details = append(details, "<div class='pollsxy92x89' id='xl09br5409' x='/xoz/qr1/sk0x'><div style='padding:5px 10px 5px 10px;background:#f2f2f2;border:1px solid #ccc;border-radius:4px;pointer-events:none;' class='pollxr09'><i data-feather='x'></i></div></div>")
+	details = append(details, "<div class='pollsxy92x89' id='xl09br5409' x='/xoz/qr1/sk0x'><div style='pointer-events:none;' class='pollxr09'><i data-feather='x'></i></div></div>")
 
 	// 
 	details = append(details, "<div class='pollsxy93x89'>")
