@@ -26,7 +26,7 @@ func GetUnreadNotification(id string) string {
 	
 	for _, item := range stuff{
 
-		if  item["owner"].(string)  == id {
+		if  len(item["theid"].(primitive.A)) > 0 && item["owner"].(string)  == id {
 
 			//notifications
 			countall = append(countall, item["postid"].(string))
