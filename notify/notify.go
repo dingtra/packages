@@ -28,7 +28,7 @@ func GetNotification (id string) string {
 	
 	for _, item := range stuff{
 
-		if item["owner"].(string)  == id {
+		if len(item["theid"].(primitive.A)) > 0 && item["owner"].(string)  == id {
 
 			//notifications
 			if item["type"].(string) == "comment" || item["type"].(string) == "reply"  {
