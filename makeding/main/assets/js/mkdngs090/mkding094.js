@@ -42,7 +42,12 @@ document.addEventListener("click", function(e){
                 var jsn = JSON.parse(this.responseText);
                 console.log(jsn)
                 for( const key in jsn){
-                   if(key != "erx090r"){ $("#"+key).html(jsn[key])}else{$("."+key).html(jsn[key])}
+                   if(key === "xk090xk09"){
+                        // btn
+                        $("."+key).html(jsn[key])
+                    }else{
+                        if(key != "erx090r"){ $("#"+key).html(jsn[key])}else{$("."+key).html(jsn[key])}
+                    }
                 }       
             }
         };
