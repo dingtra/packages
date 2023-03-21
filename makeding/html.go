@@ -32,7 +32,7 @@ func (let *MakeDingStruct ) NewDing () string{
 		<link rel="stylesheet" href="/assets/css/ldx.css" />
 		<script src="/assets/js/feather/feather.js"></script>
 		<script src="/assets/js/jquery.js"></script>
-		<script src="/assets/js/mkdngs090/mkdngs090xr.js"></script>
+		<script src="/assets/js/mkdngs090/mkdngs090xrc.js"></script>
 		<script src="/assets/js/mkdngs090/mkdngs0901xr.js"></script>
 		<script src="/assets/js/mkdngs090/mkdngs0902xr.js"></script>
 		<script src="/assets/js/mkdngs090/mkdngs0903xr.js"></script>
