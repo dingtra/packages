@@ -11,6 +11,14 @@ func (let *MakeDingStruct ) BusinessFiles () string {
 	
 	return `
 	<div style="position:fixed;top:0;bottom:0;right:0;left:0;z-index:400;background:white;" class="bssness0090"><div style="background:white;padding-bottom:50px;width:unset;" class="bssness0090-chld">
+	    <div style="display:flex;justify-content:end;" class="icons-xr090">
+	         <div style="padding-right:10px;" class="icons-xr091">
+		     <span><i data-feather='minus'></i></span>
+		 </div>
+		 <div style="padding-right:10px;" class="icons-xr091">
+		     <span><i data-feather='x'></i></span>
+		 </div>
+	    </div>
 	    <div class="bssness0091">
 			<span>Dingtra For bussiness</span>
 		</div>
