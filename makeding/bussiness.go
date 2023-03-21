@@ -2,7 +2,7 @@ package makeding
 
 
 import (
-	// 
+	//all 
 )
 
 
