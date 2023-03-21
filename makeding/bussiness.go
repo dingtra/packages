@@ -13,15 +13,15 @@ func (let *MakeDingStruct ) BusinessFiles () string {
 	<div style="position:fixed;top:0;bottom:0;right:0;left:0;z-index:400;background:white;" class="bssness0090"><div style="background:white;padding-bottom:50px;width:unset;" class="bssness0090-chld">
 	    <div style="display:flex;justify-content:end;padding-bottom:10px;" class="icons-xr090">
 	        <div style="padding-right:10px;" class="icons-xr091">
-			    <button class="btnxrlo090">
+			    <div style="background: #f2f2f2;padding: 2px 5px 2px 5px;border-radius: 4px;" class="btnxrlo090">
 				    <span style="pointer-events:none;"><i style="height:16px;width:16px;" data-feather='minus'></i></span>
-				</button>
+				</div>
 		    </div>
 
 			<div style="padding-right:10px;" class="icons-xr091">
-			   <button class="btnxrlo091">
+			    <div style="background: #f2f2f2;padding: 2px 5px 2px 5px;border-radius: 4px;" class="btnxrlo091">
 				   <span style="pointer-events:none;"><i style="height:16px;width:16px;" data-feather='x'></i></span>
-			   </button>
+			   </div>
 			</div>
 	    </div>
 	    <div class="bssness0091">
