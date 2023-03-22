@@ -71,7 +71,16 @@ func Http (w http.ResponseWriter, r *http.Request ){
 
 			}else if let.Urls[0] == "optnsxr090" {
 				let.FindOptions(w,r)
-				fmt.Fprintf(w, "%s", let.JsonVal)	
+
+				if string.ToLower(r.Method) == "post" {
+					data := strings.TrimSpace(strings.ToLower(r.FormValue("data")))
+
+					if data != "forget"{
+						fmt.Fprintf(w, "%s", let.JsonVal)	
+					}else{
+						fmt.Fprintf(w, "")
+					}
+				}
 			}else{
 				loadbranch.Http(w,r,let.Urls)
 				// tg1x

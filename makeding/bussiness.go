@@ -51,7 +51,7 @@ func (let *MakeDingStruct ) BusinessFiles () string {
 			</div>
 	
 			<div style='display:none;' id='fl091281'>
-				<div style='display:flex;overflow: auto;white-space: nowrap;' id='fl091281ch'></div>
+				<div style='display:flex;overflow: auto;white-space: nowrap;width:fit-content;margin:auto;' id='fl091281ch'></div>
 			</div>
 			
 			<div style='display:none;' id='fl091280'>
