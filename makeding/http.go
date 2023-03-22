@@ -72,7 +72,7 @@ func Http (w http.ResponseWriter, r *http.Request ){
 			}else if let.Urls[0] == "optnsxr090" {
 				let.FindOptions(w,r)
 
-				if string.ToLower(r.Method) == "post" {
+				if strings.ToLower(r.Method) == "post" {
 					data := strings.TrimSpace(strings.ToLower(r.FormValue("data")))
 
 					if data != "forget"{
