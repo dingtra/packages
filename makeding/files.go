@@ -23,7 +23,7 @@ func (let *MakeDingStruct ) GetFiles () string {
 				</label>
 			</div>
 	
-			<div style='display:none;' id='fl091281'><div style='display:flex;overflow: auto;white-space: nowrap;' id='fl091281ch'></div></div>
+			<div style='display:none;' id='fl091281'><div style='display:flex;overflow: auto;white-space: nowrap;width:fit-content;margin:auto;' id='fl091281ch'></div></div>
 			<div style='display:none;' id='fl091280'><video id='vdfl091280' controls >not supported</video></div>
 		</div>
 		<div class="setxkjss090"></div>
