@@ -157,21 +157,21 @@ func GetUnreadNotification(id string) string {
 					details = append(details, 
 						`
 							<div class="contntfy090">
-								<div class="contntfy091">
+								<div style="margin-top:5px;" class="contntfy091">
 								   <span>Invited you to join</span>
 								</div>
 	
-								<div style="padding:10px 0px 10px 0px;" class="contntfy092">
-									<span style="text-transform:capitalize;">`+item["branchname"].(string)+`</span>
+								<div style="padding:5px 0px 5px 0px;" class="contntfy092">
+									<span style="text-transform:capitalize;font-weight:600;">`+item["branchname"].(string)+`</span>
 								</div>
 	
-								<div style="display:flex;justify-content:space-between;" class="contntfy091">
+								<div style="padding:0px 10px 0px 10px;display:flex;justify-content:space-between;" class="contntfy091">
 								   <div class="contntfy091-btn0">
-									   <button style="padding:5px 20px 4px 20px;background:green;border:green;color:white;">Accept</button>
+									   <button style="border-radius:4px;padding:5px 40px 4px 40px;background:green;border:green;color:white;">Accept</button>
 								   </div>
 	
 								   <div class="contntfy091-btn0">
-									   <button style="padding:5px 20px 4px 20px;background:red;border:red;color:white;">Reject</button>
+									   <button style="border-radius:4px;padding:5px 40px 4px 40px;background:red;border:red;color:white;">Reject</button>
 								   </div>
 								</div>
 	
