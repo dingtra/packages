@@ -165,13 +165,9 @@ func GetUnreadNotification(id string) string {
 									<span style="text-transform:capitalize;font-weight:600;">`+item["branchname"].(string)+`</span>
 								</div>
 	
-								<div style="padding:0px 10px 0px 10px;display:flex;justify-content:space-between;" class="contntfy091">
+								<div class="contntfy091">
 								   <div class="contntfy091-btn0">
-									   <button style="border-radius:4px;padding:5px 40px 4px 40px;background:green;border:green;color:white;">Accept</button>
-								   </div>
-	
-								   <div class="contntfy091-btn0">
-									   <button style="border-radius:4px;padding:5px 40px 4px 40px;background:red;border:red;color:white;">Reject</button>
+									   <button style="border-radius:4px;padding:5px 40px 4px 40px;background:green;border:green;color:white;">View to take action</button>
 								   </div>
 								</div>
 	
