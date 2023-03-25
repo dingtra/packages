@@ -32,7 +32,7 @@ func (let *DingtagStruct ) LookUpUser ( r *http.Request) {
 
 			if item["fullname"] != nil {
 				if len(item["fullname"].(string)) > 0 {
-					fullnamebool, _ := regexp.MatchString(fmt.Sprintf(`^%s`, strings.ToLower(name)), strings.ToLower(item["fullname"].(string)))
+					fullnamebool, _ := regexp.MatchString(fmt.Sprintf(`^%s`, strings.ReplaceAll(strings.ToLower(name), " ", "")), strings.ReplaceAll(strings.ToLower(item["fullname"].(string)), " ", ""))
 					getfullname = fullnamebool
 				}
 			}

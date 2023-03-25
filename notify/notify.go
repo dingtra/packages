@@ -163,6 +163,32 @@ func GetNotification (id string) string {
 					</div>`)
 			}
 
+			if item["type"].(string) == "contributor" {
+				details = append(details, 
+				    `
+					    <div class="contntfy090">
+						    <div class="contntfy091">
+							   <span>Invited you to join</span>
+							</div>
+
+							<div style="padding:10px 0px 10px 0px;" class="contntfy092">
+							    <span style="text-transform:capitalize;">`+item["branchname"].(string)+`</span>
+							</div>
+
+							<div style="display:flex;justify-content:space-between;" class="contntfy091">
+							   <div class="contntfy091-btn0">
+							       <button style="padding:5px 20px 4px 20px;background:green;border:green;color:white;">Accept</button>
+							   </div>
+
+							   <div class="contntfy091-btn0">
+							       <button style="padding:5px 20px 4px 20px;background:red;border:red;color:white;">Reject</button>
+							   </div>
+							</div>
+
+						</div>
+					`)
+			}
+
 			if item["type"].(string) == "others branch" {
 				details = append(details, 
 				    `<div id='type-comment'>
