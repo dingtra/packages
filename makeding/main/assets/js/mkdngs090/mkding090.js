@@ -126,6 +126,20 @@ document.addEventListener("click", function(e){
 document.addEventListener("click", function(e){
     if(e.target.id === "xl09br5409"){
         var x= e.target.getAttribute("x");
+        if(x === "bussiness"){
+            var p = document.querySelector(".bssness0090");
+            if(p){
+                x = "forget"
+            }else{
+                x = x
+            }
+            $(".bssness0090").show();
+        }
+
+        if(x === "files") {
+            var p = document.querySelector(".bssness0090");
+            p.classList.remove("bssness0090");
+        }
         $.post("/xoz/qr1/optnsxr090",
         {data:x,},
         function(d,s){

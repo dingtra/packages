@@ -17,12 +17,6 @@ func (let *MakeDingStruct ) BusinessFiles () string {
 				    <span style="pointer-events:none;"><i style="height:16px;width:16px;" data-feather='minus'></i></span>
 				</div>
 		    </div>
-
-			<div style="padding-right:10px;" class="icons-xr091">
-			    <div style="background: #f2f2f2;padding: 2px 5px 2px 5px;border-radius: 4px;" class="btnxrlo091">
-				   <span style="pointer-events:none;"><i style="height:16px;width:16px;" data-feather='x'></i></span>
-			   </div>
-			</div>
 	    </div>
 	    <div class="bssness0091">
 			<span>Dingtra For bussiness</span>

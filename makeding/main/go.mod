@@ -7,6 +7,9 @@ replace makeding => ../../makeding
 require makeding v0.0.0-00010101000000-000000000000
 
 require (
+	github.com/dingtra/packages/makeding/bussiness v0.0.0-20230325223532-e9171db5fc7f // indirect
+	github.com/dingtra/packages/makeding/dingtag v0.0.0-20230325223532-e9171db5fc7f // indirect
+	github.com/dingtra/packages/makeding/loadbranch v0.0.0-20230325223532-e9171db5fc7f // indirect
 	github.com/golang/snappy v0.0.1 // indirect
 	github.com/gorilla/securecookie v1.1.1 // indirect
 	github.com/gorilla/sessions v1.2.1 // indirect
@@ -21,11 +24,10 @@ require (
 	golang.org/x/crypto v0.0.0-20220622213112-05595931fe9d // indirect
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c // indirect
 	golang.org/x/text v0.3.7 // indirect
-	loadbranch v0.0.0-00010101000000-000000000000 // indirect
 	rundb v0.0.0-00010101000000-000000000000 // indirect
 )
 
-replace rundb => ../../rundb
+replace rundb => ../../../rundb
 
 replace loadbranch => ../loadbranch
 

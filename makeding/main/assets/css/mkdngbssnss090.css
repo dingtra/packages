@@ -1,32 +1,43 @@
-.bssnssxr090, .bssnssxr090-chld{
-    padding: 20px 10px 10px 10px;
+.bssness0090{
+    padding: 10px 10px 10px 10px;
+}
+.bssness0091{
+    font-size: 25px;
+    font-weight: 700;
 }
 
-.bssnssxr090-chld{
-    overflow-y: scroll;
-    width: fit-content;
-    margin: auto;
-    background-color: white;
-    border-radius: 4px;
+.bssness0092{
+    margin-top: 20px;
 }
 
-.bssnssxr091{
-    margin-top: 10px;
+.xkl090{
+    font-size: 20px;
+    color: rgb(207, 132, 132);
 }
 
-.bssnssxr092 {
-    padding: 10px 0px 10px;
-}
+@media (min-width:641px)  {
+    .bssness0090{
+        padding: 20px 20px 20px 20px;
+    }
+    
+    .bssness0092{
+        display: flex;
+    }
 
-.bssnssxr093 input[type=text], input[type=number], select {
-    height: 35px;
-    width: 100%;
-    padding-left: 10px;
-    border-radius: 4px;
-    border: 1px solid rgb(241, 236, 236);
-}
+    .xkl090{
+        font-size: 20px;
+        color: rgb(207, 132, 132);
+        border-right: 1px solid #504f4f;
+        padding-right: 10px;
+        flex-grow: 1;
+        flex-shrink: 0;
+        flex-basis: 0;
+    }
 
-.bssnssxr093 input:focus{
-    outline: none !important;
-    border: 1px solid black;
+    .xkl091{
+        padding-left: 10px;
+        flex-grow: 1;
+        flex-shrink: 0;
+        flex-basis: 0;
+    }
 }

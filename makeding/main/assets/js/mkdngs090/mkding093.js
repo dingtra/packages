@@ -18,6 +18,8 @@ function CompileFile(src, i, n){
             </div>
         </div>
         `
+    }else{
+        arrange = ""
     }
     
 	return [

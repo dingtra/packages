@@ -1,9 +1,13 @@
-html,body{
-    background-color: #f2f2f2;
+.newdngsxr090-chld{
+    padding: 5px 10px 5px 10px;
 }
 
-.newdngsxr090-chld{
-    padding: 5px 5px 5px 5px;
+.imgupljss091{
+    display: none;
+}
+
+.imgupljss090:hover .imgupljss091{
+    display: block;
 }
 
 .newdngsxr090ax{
@@ -13,31 +17,69 @@ html,body{
 }
 
 .newdngsxr090ax0{
-    font-size: 17px;
-    font-weight: bold;
+    font-size: 20px;
 }
+
 
 .newdngsxr090ax1 svg {
     position: relative;
     top: -4px;
-    /* height:16px; */
-    /* width: 16px; */
-    stroke-width: 3;
+    stroke-width: 2;
 }
+
+
+.icons-xvg{
+    display: none;
+    background-color: white;
+    z-index: 100;
+}
+
+.nwdngtext091x:hover .icons-xvg{
+    display: block;
+}
+
+/* .iconsx00 span{
+    pointer-events: none;
+} */
+
+.nwdngtext091x:hover textarea{
+    background-color: #f2f2f2;
+    padding-top: 45px;
+}
+
+.nwdngtext091x textarea:focus{
+    outline: none !important;
+    border: 1px solid #ccc;
+}
+
 
 .nwdngtext091x textarea{
     resize: none;
     width: 100%;
-    height: 100px;
+    height: 140px;
     font-size: 16px;
     border: 1px solid #f3efef;
     padding: 10px 5px 10px 5px;
     border-radius: 4px;
 }
 
+.nwdngsxkl00{
+    left: 5%;
+}
+
+.nwdngtext091k input[type=text] {
+    width: 100%;
+    padding: 0px 35px 0px 10px;
+    border-radius: 4px;
+    border: 1px solid #f2f2f2;
+    background: #f2f2f2;
+    height: 40px;
+}
+
+
+
 .brnch-form-class{
     background-color: #f2f2f2;
-    /* border-radius: 5px; */
     margin-top: 10px;
     padding: 10px 10px 10px 10px;
 }
@@ -125,17 +167,6 @@ html,body{
 }
 
 
-.rmfile{
-    margin-top: 5px;
-    background-color: #807d7d;
-    padding: 5px 5px 5px 5px;
-    border-radius: 4px;
-}
-
-.rmfile #rmfile{
-    width: fit-content;
-    margin: auto;
-}
 
 #frmpst27890submtbtn{
     background-color: green;
@@ -151,10 +182,11 @@ html,body{
 
 @media (min-width:641px)  {
     .newdngsxr090-chld{
-        width: 620px;
+        width: 630px;
         padding: 15px 15px 15px 15px;
         border-radius: 4px;
         margin: auto;
+        margin-top: 50px;
         background-color: white;
     }
 
@@ -178,205 +210,14 @@ html,body{
     .nwdngtext091k{
         padding-left: 10px;
     }
+
+    .nwdngsxkl00{
+        left: 30%;
+    }
 }
 
-/* 
-
-
-.nwdngtext090{
-    padding: 0px 0px 10px 0px;
+@media (min-width:961px){
+    .newdngsxr090-chld{
+        width: 950px;
+    }
 }
-
-.nwdngtext091{
-    padding-bottom: 5px;
-}
-
-.nwdngtext092 textarea{
-    width: 100%;
-    padding: 10px 10px 10px 10px;
-    border-radius: 4px;
-    border:  1px solid rgb(231, 218, 218);
-    resize: none;
-}
-
-.nwdngtext092 textarea:focus{
-    outline: none !important;
-    height: 150px;
-    border:  1px solid rgb(231, 218, 218);
-}
-
-.nwdngmore090{
-    background-color: #f2f2f2;
-    padding: 10px 10px 10px 10px;
-    border-radius: 4px;
-}
-
-
-.nwdngoptns090{
-    display: flex;
-    margin-top: 10px;
-    justify-content: space-between;
-    border-bottom: 1px solid rgb(230, 226, 226);
-    padding-bottom: 10px;
-}
-
-.nwdngoptns091hr{
-    border-left: 1px solid #ccc;
-    flex-basis: 0;
-    flex-grow:1;
-}
-
-.nwdngoptns091-svg, .nwdngoptns091-title  {
-    width: fit-content;
-    margin: auto;
-}
-
-.nwdngoptns091-svg svg{
-    height: 18px;
-    width: 18px;
-}
-
-.nwdngoptns091-title{
-    padding-top: 3px;
-    font-size: 14px;
-}
-
-.nwdngmore092{
-    margin-top: 10px;
-}
-
-
-.brnch-form-class{
-    background-color: #f2f2f2;
-    border-radius: 5px;
-    margin-top: 10px;
-}
-
-.brnch-form-class #brnch82791-title span{
-    font-size: 18px;
-}
-
-.brnch-form-class #brnch82791-title svg{
-    position: relative;
-    top:2px;
-    height: 17px;
-    ime-mode: 17px;
-}
-
-.brnch-form-class #brnch82791-about{
-    font-size: 14px;
-    margin-top: 5px;
-}
-
-.brnch82791-slct{
-    display: flex;
-    font-size: 15px;
-}
-
-
-.brnchcmmnt{
-    margin-top: 10px;
-}
-
-.brnchcmmnt svg{
-    height: 16px;
-    width: 16px;
-}
-
-.brnchcmmnt-chld{
-    display: none;
-    padding: 10px 10px 10px 10px;
-    background-color: white;
-}
-
-.mkdngbtn091{
-    display: none;
-}
-
-.brnchcmmnt:hover .brnchcmmnt-chld{
-    display: block;
-}
-
-.brnchcmmnt:hover .mkdngbtn090{
-    display: none;
-}
-
-.brnchcmmnt:hover .mkdngbtn091{
-    display: block;
-}
-
-.brnchcmmnt092{
-    padding-top: 4px;
-    display: flex;
-}
-
-.create-new-ding-class-files{
-    margin-top: 10px;
-    padding: 5px 15px 5px 5px;
-}
-
-.create-new-ding-class-files-ch {
-    padding: 5px 5px 5px 5px;
-    border-radius: 4px;
-    border: 1px solid #ccc;
-    border-style:dashed;
-    width: 100%;
-}
-
-.create-new-ding-class-files-ch #fl091280, #fl091281{
-    width: fit-content;
-    margin: auto;
-}
-
-
-.create-new-ding-class-files-ch img{
-    height: 280px;
-    width: 250px;
-    object-fit: fill;
-    border-radius: 4px;
-    padding: 10px;
-}
-
-.create-new-ding-class-files-ch video{
-    height: 280px;
-    width: 250px;
-    object-fit: fill;
-    border-radius: 4px;
-}
-
-.create-new-ding-class-files-ch #fl091281ch{
-    width: 280px;
-}
-
-
-.rmfile{
-    margin-top: 5px;
-    background-color: #f2f2f2;
-    padding: 5px 5px 5px 5px;
-    border-radius: 4px;
-}
-
-.rmfile #rmfile{
-    width: fit-content;
-    margin: auto;
-}
-
-.mkdnglabelx090{
-    width: fit-content;
-    margin: auto;
-}
-
-.mkdnglabelx090 svg {
-    position: relative;
-    top:2px;
-    height: 18;
-    width: 18px;
-    stroke-width: 1.5;
-}
-
-.mkdnglabelx091{
-    padding-top: 10px;
-    font-size: 14px;
-    text-align: center;
-} */
-

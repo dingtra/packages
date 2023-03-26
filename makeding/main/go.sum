@@ -1,6 +1,12 @@
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
+github.com/dingtra/packages/makeding/bussiness v0.0.0-20230325223532-e9171db5fc7f h1:pmQduNCuqT4ZMfuLgMEcxgrC4Acgk4u91+1hbTMdan4=
+github.com/dingtra/packages/makeding/bussiness v0.0.0-20230325223532-e9171db5fc7f/go.mod h1:FSvkF9jpe/YwK6qPIo7MKfx1uWnM7lkkOqqY2GBR0TI=
+github.com/dingtra/packages/makeding/dingtag v0.0.0-20230325223532-e9171db5fc7f h1:CO8gtEGgCP9Ac5+JStUO0+NqQdCinFY1WIkZaUDIUSQ=
+github.com/dingtra/packages/makeding/dingtag v0.0.0-20230325223532-e9171db5fc7f/go.mod h1:A3JwCJr3MUZjerziBGQ13tGR3vziH9p2KySURPQB/Mw=
+github.com/dingtra/packages/makeding/loadbranch v0.0.0-20230325223532-e9171db5fc7f h1:uO0Am855PZTIJCMciQp0YBopk5Em9qCAbIOY4SoguHk=
+github.com/dingtra/packages/makeding/loadbranch v0.0.0-20230325223532-e9171db5fc7f/go.mod h1:H3cthF4xUIT+Sk1JHAqKNVv9kgY/WLYgjyGCQC264bg=
 github.com/golang/snappy v0.0.1 h1:Qgr9rKW7uDUkrbSmQeiDsGa8SjGyCOGtuasMWwvp2P4=
 github.com/golang/snappy v0.0.1/go.mod h1:/XxbfmMg8lxefKM7IXC3fBNl/7bRcc72aCRzEWrmP2Q=
 github.com/google/go-cmp v0.5.2 h1:X2ev0eStA3AbceY54o37/0PQ/UWqKEiiO2dKL5OPaFM=

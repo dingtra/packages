@@ -18,29 +18,32 @@ import (
 func (let *MakeDingStruct ) NewDing () string{
 	details := []string{}
 
-	details = append(details, `
+	// details = append(details, `
 	
-	<html>
+	// <html>
 
-	<head>
-		<title>Home Page</title>
-		<link rel="icon" href="/jskl899nxhsjas/" type="image/x-icon">
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="/assets/css/mkdng0xr0.css" />
-		<link rel="stylesheet" href="/assets/css/mkdngbssnss090.css" />
-		<link rel="stylesheet" href="/assets/css/ldx.css" />
-		<script src="/assets/js/feather/feather.js"></script>
-		<script src="/assets/js/jquery.js"></script>
-		<script src="/assets/js/mkdngs090/mkdngs090xrc.js"></script>
-		<script src="/assets/js/mkdngs090/mkdngs0901xr.js"></script>
-		<script src="/assets/js/mkdngs090/mkdngs0902xr.js"></script>
-		<script src="/assets/js/mkdngs090/mkdngs0903xr.js"></script>
-		<script src="/assets/js/mkdngs090/mkdngs0904xr.js"></script>
-	</head>
+	// <head>
+	// 	<title>Home Page</title>
+	// 	<link rel="icon" href="/jskl899nxhsjas/" type="image/x-icon">
+	// 	<meta charset="UTF-8">
+	// 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	// 	<link rel="stylesheet" href="/assets/css/mkdng0xr0.css" />
+	// 	<link rel="stylesheet" href="/assets/css/mkdngbssnss090.css" />
+	// 	<link rel="stylesheet" href="/assets/css/ldx.css" />
+	// 	<script src="/assets/js/feather/feather.js"></script>
+	// 	<script src="/assets/js/jquery.js"></script>
+	// 	<script src="/assets/js/mkdngs090/mkding090.js"></script>
+	// 	<script src="/assets/js/mkdngs090/mkding0901.js"></script>
+	// 	<script src="/assets/js/mkdngs090/mkding092.js"></script>
+	// 	<script src="/assets/js/mkdngs090/mkding093.js"></script>
+	// 	<script src="/assets/js/mkdngs090/mkding094.js"></script>
+	// 	<script src="/assets/js/mkdngs090/mkding095.js"></script>
+	// 	<script src="/assets/js/mkdngs090/mkding096.js"></script>
+	// 	<script src="https://cdn.jsdelivr.net/npm/emoji-mart@latest/dist/browser.js"></script>
+	// </head>
 	
-	<body >
-	`)
+	// <body >
+	// `)
 
 	// parent still open
 	details = append(details, 
@@ -88,6 +91,10 @@ func (let *MakeDingStruct ) NewDing () string{
 									AI Assistant
 								</span>
 							</div>
+
+							<div style="margin:5px 0px 0px 10px;font-size:15px;color:green;" class="phsxr092-desc">
+					            <div id="phsxr094-desc"></div>
+					        </div>
 						</div>
 
 					</div>
@@ -196,9 +203,12 @@ func (let *MakeDingStruct ) NewDing () string{
 	<script>
 	feather.replace()
     </script>
-    </body>
-    </html>
 	`)
+
+	// details = append(details, `
+	// </body>
+    // </html>
+	// `)
 
 	return strings.Join(details, "")
 }
